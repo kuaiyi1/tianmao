@@ -30,3 +30,12 @@
 
 	// })
 }
+{
+	// let lis=document.querySelector(".header_right ul li");
+	// let ems=document.querySelector(".header_right ul li em");
+	// lis.forEach(function(ele,index){
+	// 	ele.onmouseenter=function(){
+			
+	// 	}
+	// })
+}
