@@ -601,6 +601,7 @@
 .supermarket_bottom_item:hover{
 	border: 1px solid #FF0036;
 	/* background: rgba(0, 0, 0, 0.1); */
+	opacity: 0.6;
 }
 
 .supermarket_bottom{
@@ -680,6 +681,15 @@
     overflow: hidden;
     color: #FFF;
 }
+.footer_bottom_middle span{
+	float: left;
+	display: block;
+	margin-top: 5px;
+}
+.footer_bottom_middle img{
+	width:20px ;
+	height:20px ;
+}
 .ding_right_main{
 	margin-top: 8px;
     margin-left: 14px;
@@ -757,6 +767,7 @@
 	margin-left: 13px;
 	margin-bottom: 15px;
 	position: relative;
+	opacity: 1;
 }
 .supermarket_bottom_item img{
 	width: 185px;
@@ -1433,6 +1444,7 @@ div h1{
     color: #8b8b8b;
     display: block;
     font-size: 12px;
+    cursor: pointer;
 }
 .mobil{
 	float: left;
@@ -1447,12 +1459,23 @@ div h1{
     line-height: 30px;
     text-align: left;
 }
+.supermarket_bottom_left img:hover,.pinpai_main_left img:hover,.pinpai_main_middle img:hover{
+	opacity: 0.6;
+}
+.sanjiao{
+	position: absolute;
+	top: 2px;
+    right: -10px;
+    color: #494949;
+   	font-size: 30px;
+}
 .mobil_bottom{
 	width: 105px;
     height: 105px;
     line-height: 105px;
     text-align: center;
     float: left;
+    cursor: pointer;
 }
 .footer_bottom{
 	border-top: 2px solid #FF0036;
@@ -1472,6 +1495,7 @@ div h1{
 	margin-right: 3px;
     color: #fff;
     font-size: 12px;
+    cursor: pointer;
 }
 .footer_bottom_middle{
 	width: 1190px;
@@ -1501,6 +1525,7 @@ div h1{
 	width: 73px;
 	height: 30px;
 	padding-top: 5px;
+	cursor: pointer;
 }
 .colorq{
 	background: #FF0036!important;
@@ -1728,10 +1753,10 @@ div h1{
     display: block;
     float: left;
 }
-.banner_bottom_left ul li.list:hover{
+/* .banner_bottom_left ul li.list:hover{
 	background: #fff;
 	color: #e54077!important;
-}
+} */
 .panner_left{
 	float: left;
     width: 583px;
@@ -1783,8 +1808,54 @@ display: block;
     color: #666;
 }
 .hot{
-	color: #e54077;
+	color: #454077;
 }
+.hot1{
+	color: #427def;
+}
+.hot2{
+	color:#6347ed ;
+}
+.hot3{
+	color:#e54077 ;
+}
+.hot4{
+	color:#6347ed;
+}
+.hot5{
+	color:#427def;
+}
+.hot6{
+	color:#fa5c5c;
+}
+.hot7{
+	color:#f7a831;
+}
+.hot8{
+	color:#427def;
+}
+.hot9{
+	color:#dd2727;
+}
+.hot10{
+	color:#f7a831;
+}
+.hot11{
+	color:#427def;
+}
+.hot12{
+	color:#f7a831;
+}
+.hot13{
+	color:#3bc7b0;
+}
+.hot14{
+	color:#dd2727;
+}
+.hot15{
+	color:#3bc7b0 ;
+}
+
 .panel_fenge {
     margin-bottom: 10.5px;
     border-bottom-width: 1px;

@@ -83,7 +83,8 @@
 		</div> -->
 		<div class="right_bar_content1 rights">
             <img src="img/下载 (1).png" alt="">
-            <div class="right_bars">会员权益</div>
+            <div class="right_bars">会员权益
+            <div class="sanjiao">◆</div></div>
         </div>
         <div class="right_bar_content2 rights">
             <div class="right_bar_content2_icon">
@@ -95,23 +96,28 @@
         </div>
         <div class="right_bar_content3 rights">
             <img src="img/icon3.png" alt="">
-            <div class="right_bars rights1">我的资产</div>
+            <div class="right_bars rights1">我的资产
+            <div class="sanjiao">◆</div></div>
         </div>
         <div class="right_bar_content4 rights">
             <img src="img/icon4.png" alt="">
-            <div class="right_bars rights2">我要充值</div>
+            <div class="right_bars rights2">我要充值
+            <div class="sanjiao">◆</div></div>
         </div>
         <div class="right_bar_content5 rights">
             <img src="img/icon5.png" alt="">
-            <div class="right_bars rights3">我看过的</div>
+            <div class="right_bars rights3">我看过的
+            <div class="sanjiao">◆</div></div>
         </div>
          <div class="right_bar_content6 rights">
             <img src="img/icon6.png" alt="">
-            <div class="right_bars rights4">我要收藏</div>
+            <div class="right_bars rights4">我要收藏
+            <div class="sanjiao">◆</div></div>
         </div>
          <div class="right_bar_content7 rights">
             <img src="img/icon7.png" alt="">
-             <div class="right_bars rights5">用户反馈</div>
+             <div class="right_bars rights5">用户反馈
+             <div class="sanjiao">◆</div></div>
         </div>
        <div class="right_bar_content8 rights">
             <img src="img/icon8.png" alt="">
@@ -575,9 +581,9 @@
 				 								<span>当季流行</span>
 				 								<i><</i>
 				 								<div class="panner_title1">
-				 									<div class="panner_ts hot">春季新品</div>
+				 									<div class="panner_ts hot1">春季新品</div>
 				 									<div class="panner_ts">商场同款</div>
-				 									<div class="panner_ts hot">春季新品</div>
+				 									<div class="panner_ts hot1">春季新品</div>
 				 									<div class="panner_ts">商场同款</div>
 				 									<div class="panner_ts hot">春季新品</div>
 				 									<div class="panner_ts">商场同款</div>
@@ -4042,10 +4048,11 @@
    	 			<a href="">浙网文[2015]0295-065号</a>
    	 			<a href="">12318举报</a>
     			互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com 
-   			 	互联网药品信息服务资质证书编号：
+    			<span>互联网药品信息服务资质证书编号：</span>
+   			 	
    			 	<a href="">浙-（经营性）-2017-0005</a>
    			 	<a href="">
-   			 	<img src="" alt="">
+   			 	<img src="img/TB1yEqRPXXXXXXPXpXXXXXXXXXX-20-20.png" alt="">
 					浙公网安备 33010002000120号
 				</a>
 				<a href="">
@@ -4133,7 +4140,7 @@
 		}else{
 			$(".topbar").hide().slideUp(800);
 		}
-		if(st>734){
+		if(st>734&&st<12933){
 			$(".leftbar").show().css("transform","scale(1,1)");
 		}else{
 			$(".leftbar").hide().css("transform","scale(0,0)");
@@ -4189,17 +4196,18 @@
 
 
 {
-	
+	var arr=["#454077","#427def","#6347ed","#e54077","#6347ed","#427def","#fa5c5c","#f7a831","#427def","#dd2727","#f7a831","#427def","#f7a831","#3bc7b0","#dd2727","#3bc7b0"];
 	$(".banner_bottom_left ul li.list").mouseenter(function(index,value){
 		var index=$(this).index("");
 		$(this).find(".panner_con").show();
-		$(this).find("li p").css("color","#e54077");
+		$(this).css({"color":arr[index],"background":"#fff"});
+		$(this).find("li p").css("color",arr[index]);
 
 	});
 	$(".banner_bottom_left ul li.list").mouseleave(function(index,value){
 		var index=$(this).index("");
 		$(this).find(".panner_con").hide();
-
+		$(this).css({"color":"","background":""});
 	});
 }
 
